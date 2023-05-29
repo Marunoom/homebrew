@@ -1,0 +1,113 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "MaruShardmind",
+                "abbreviation": "RGtVaiI",
+                "full": "Ruxzy's Guide to Vasstika and its Inhabitants",
+                "authors": [
+                    "Marunoom"
+                ],
+                "version": "1.0",
+                "color": "330066",
+                "targetSchema": "1.2"
+            }
+        ],
+        "dateAdded": 1685396383,
+        "dateLastModified": 1685396383
+    },
+    "race": [
+    {
+        "name": "Shardmind",
+        "source": "MaruShardmind",
+        "ability": [
+            {
+                "int": 2,
+                "wis": 1
+            },
+            {
+                "int": 2,
+                "cha": 1
+            }
+        ],
+        "size": [
+            "M"
+        ],
+        "speed": 30,
+        "traitTags": [
+            "Improved Resting",
+            "Uncommon Race"
+        ],
+        "languageProficiencies": [
+            {
+                "common": true,
+                "any": 1
+            }
+        ],
+        "entries": [
+            "Shardminds are living constructs of sentient quartztet, making them remarkably rare and unique beings. All shardminds share the following traits.",
+            {
+                "type": "entries",
+                "name": "Age",
+                "entries": [
+                    "When Shardminds form, they are roughly the size and maturity of a toddler. Over extended periods of time, roughly a few hundred years, they grow physically to their full size and mentally mature, subsequently ceasing to age around 300 years."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Alignment",
+                "entries": [
+                    "Shardminds don't tend towards any particular alignment, as their development is largely affected by the environment and races of where they grow up. On average this makes them neutral."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Size",
+                "entries": [
+                    "Shardminds stand 6 feet tall on average. Your size is Medium."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Languages",
+                "entries": [
+                    "You can speak, read, and write Common and one other language of your choice. When shardminds speak, the crystals that make up their body hum, and their voices have a quality similar to metallic ringing."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Constructed Fortitude",
+                "entries": [
+                    "The circumstances of your creation gives you remarkable fortitude. Your creature type is construct and humanoid, and you gain the following benefits:\nYou do not need to eat, drink or breathe.\nYou do not need to sleep, you don't suffer from exhaustion, and magic can't put you to sleep.\nWhen taking a long rest, you must spend 6 hours in a meditative state, in which youn are concious and aware of your surroundings.\nYou are immune to disease, as well as having advantage on saving throws against being poisoned and resistance to poison damage."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Crystalline Mind",
+                "entries": [
+                    "You can communicate telepathically with any creature within 30 feet of you that knows a language. Additionally, you have resistance to psychic damage, and your thoughts cannot be read by any means."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Shard Storm",
+                "entries": [
+                    "As a reaction when you are hit by an attack, you can loosen your grip on your physical form, turning into a swarm of shards. You take half damage from the incoming attack, and you immediately teleport up to half your walking speed. You can only use this feature once per long rest."
+                ]
+            }
+        ],
+        "fluff": {},
+        "resist": [
+            "psychic",
+            "poison"
+        ],
+        "conditionImmune": [
+            "disease"
+        ],
+        "creatureTypes": [
+            "humanoid",
+            "construct"
+        ]
+    }
+]
+}
