@@ -784,7 +784,7 @@
             
             "entries": [
                 "A small bolt of green toxic energy flies towards and absorbs into a creature within range.",
-                "Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d4} poison damage and must make a Consitution saving throw. On a failed save, it is also Poisoned until the end of your next turn.",
+                "Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d4} poison damage and must make a Consitution saving throw. On a failed save, it is also {@condition poisoned} until the end of your next turn.",
                 "This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
             ],
             "damageInflict": [
