@@ -1,0 +1,1229 @@
+{
+    "_meta": {
+    "sources": [
+        {
+            "json": "MaruRuxzy",
+            "abbreviation": "RGtVaiI",
+            "full": "Ruxzy's Guide to Vasstika and its Inhabitants",
+            "authors": [
+                "Marunoom"
+            ],
+            "version": "1.0",
+            "color": "330066",
+            "targetSchema": "1.2"
+        }
+    ],
+    "dateAdded": 1685408775,
+    "dateLastModified": 1685408775
+    },
+    "race": [
+        {
+            "name": "Shardmind",
+            "source": "MaruRuxzy",
+            "ability": [
+                {
+                    "int": 2,
+                    "wis": 1
+                },
+                {
+                    "int": 2,
+                    "cha": 1
+                }
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "traitTags": [
+                "Improved Resting",
+                "Uncommon Race"
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "any": 1
+                }
+            ],
+            "entries": [
+                "Shardminds are living constructs of sentient quartztet, making them remarkably rare and unique beings. All shardminds share the following traits.",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "When Shardminds form, they are roughly the size and maturity of a toddler. Over extended periods of time, roughly a few hundred years, they grow physically to their full size and mentally mature, subsequently ceasing to age around 300 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries": [
+                        "Shardminds don't tend towards any particular alignment, as their development is largely affected by the environment and races of where they grow up. On average this makes them neutral."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Shardminds stand 6 feet tall on average. Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and one other language of your choice. When shardminds speak, the crystals that make up their body hum, and their voices have a quality similar to metallic ringing."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Constructed Fortitude",
+                    "entries": [
+                        "The circumstances of your creation gives you remarkable fortitude. Your creature type is construct and humanoid, and you gain the following benefits:\nYou do not need to eat, drink or breathe.\nYou do not need to sleep, you don't suffer from exhaustion, and magic can't put you to sleep.\nWhen taking a long rest, you must spend 6 hours in a meditative state, in which youn are concious and aware of your surroundings.\nYou are immune to disease, as well as having advantage on saving throws against being poisoned and resistance to poison damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Crystalline Mind",
+                    "entries": [
+                        "You can communicate telepathically with any creature within 30 feet of you that knows a language. Additionally, you have resistance to psychic damage, and your thoughts cannot be read by any means."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Shard Storm",
+                    "entries": [
+                        "As a reaction when you are hit by an attack, you can loosen your grip on your physical form, turning into a swarm of shards. You take half damage from the incoming attack, and you immediately teleport up to half your walking speed. You can only use this feature once per long rest."
+                    ]
+                }
+            ],
+            "fluff": {},
+            "resist": [
+                "psychic",
+                "poison"
+            ],
+            "conditionImmune": [
+                "disease"
+            ],
+            "creatureTypes": [
+                "humanoid",
+                "construct"
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Immolate",
+            "source": "MaruRuxzy",
+            "level": 0,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Fiend",
+                            "shortName": "Fiend",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Genie",
+                            "shortName": "Genie",
+                            "source": "TCE",
+                            "subSubclass": "Efreeti"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Light Domain",
+                            "shortName": "Light",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Wildfire",
+                            "shortName": "Wildfire",
+                            "source": "TCE"
+                        }
+                    }
+                ]
+            },
+            "entries": [
+                "Swinging your hand in front of you, you shoot a short range burst of flame at nearby enemies.",
+                "Each creature within a 10-foot cone must make a Dexterity saving throw or take {@damage 1d8} fire damage.",
+                "This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "savingThrow": [
+                "dexterity"
+            ],
+            "scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+            "miscTags": [
+                "SCL"
+            ],
+            "foundryImg": "icons/magic/fire/flame-burning-embers-yellow.webp"
+        },
+        {
+            "name": "Bubbling Grasp",
+            "source": "MaruRuxzy",
+            "level": 0,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Artificer",
+                            "source": "TCE"
+                        },
+                        "subclass": {
+                            "name": "Alchemist",
+                            "shortName": "Alchemist",
+                            "source": "TCE"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Land",
+                            "shortName": "Land",
+                            "source": "PHB",
+                            "subSubclass": "Swamp"
+                        }
+                    }
+                ]
+            },
+            
+            "entries": [
+                "An intense acidic slime emits from your hand, bubbling and melting a creature you try to touch.",
+                "Make a melee spell attack against the target. On a hit, the target takes {@damage 1d10} acid damage.",
+                "This spell's damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
+            ],
+            "damageInflict": [
+                "acid"
+            ],
+            "scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+            "miscTags": [
+                "SGT",
+                "SCL"
+            ],
+            "foundryImg": "icons/magic/acid/dissolve-arm-flesh.webp"
+        },
+        {
+            "name": "Frost Burst",
+            "source": "MaruRuxzy",
+            "level": 0,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "sphere",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Fathomless",
+                            "shortName": "Fathomless",
+                            "source": "TCE"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Genie",
+                            "shortName": "Genie",
+                            "source": "TCE",
+                            "subSubclass": "Marid"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Sea Domain",
+                            "shortName": "Sea",
+                            "source": "MaruRuxzy"
+                        }
+                    }
+                ]
+            },
+            
+            "entries": [
+                "You freeze the moisture in the air a short distance around you, abruptly lowering the temperature and coating the area in a layer of frost.",
+                "Each creature within range, other than, you, must make a Constitution saving throw or take {@damage 1d6} cold damage and have their speed reduced by 10 feet until the start of your next turn.",
+                "This spell's damage increasess by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "damageInflict": [
+                "cold"
+            ],
+            "scalingLevelDice": {
+				"label": "cold damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+            "miscTags": [
+                "SCL"
+            ],
+            "foundryImg": "icons/magic/water/snowflake-ice-blue-white.webp"
+        },
+        {
+            "name": "Static Arc",
+            "source": "MaruRuxzy",
+            "level": 0,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "PHB"
+                        }
+                    }
+                ]
+            },
+            
+            "entries": [
+                "Manipulating the static charge in the area around you, you fire a small arc of electricity at a creature or object within range.",
+                "Make a ranged spell attack against the target. You have advantage on the attack roll if the target is weaing armor made of metal. On a hit, the target takes {@damage 1d10} lightning damage.",
+                "This spell's damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
+            ],
+            "damageInflict": [
+                "lightning"
+            ],
+            "scalingLevelDice": {
+				"label": "lightning damage",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+            "miscTags": [
+                "SGT",
+                "SCL"
+            ],
+            "foundryImg": "icons/magic/lightning/bolt-blue.webp"
+        },
+        {
+            "name": "Withering Grasp",
+            "source": "MaruRuxzy",
+            "level": 0,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of Spores",
+                            "shortName": "Spores",
+                            "source": "TCE"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Death Domain",
+                            "shortName": "Death",
+                            "source": "DMG"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Grave Domain",
+                            "shortName": "Grave",
+                            "source": "XGE"
+                        }
+                    }
+                ]
+            },
+            
+            "entries": [
+                "A necrotic aura emanates from your hand, decaying a target that you touch.",
+                "Make a melee spell attack against the target. On a hit, the target takes {@damage 1d10} necrotic damage, ignoring temporary hit points.",
+                "This spell's damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
+            ],
+            "damageInflict": [
+                "necrotic"
+            ],
+            "scalingLevelDice": {
+				"label": "necrotic damage",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+            "miscTags": [
+                "SGT",
+                "SCL"
+            ],
+            "foundryImg": "icons/magic/unholy/hand-claw-fog-green.webp"
+        },
+        {
+            "name": "Noxious Bolt",
+            "source": "MaruRuxzy",
+            "level": 0,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Artificer",
+                            "source": "TCE"
+                        },
+                        "subclass": {
+                            "name": "Alchemist",
+                            "shortName": "Alchemist",
+                            "source": "TCE"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Death Domain",
+                            "shortName": "Death",
+                            "source": "DMG"
+                        }
+                    }
+                ]
+            },
+            
+            "entries": [
+                "A small bolt of green toxic energy flies towards and absorbs into a creature within range.",
+                "Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d4} poison damage and must make a Consitution saving throw. On a failed save, it is also Poisoned until the end of your next turn.",
+                "This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+            ],
+            "damageInflict": [
+                "poison"
+            ],
+            "scalingLevelDice": {
+				"label": "poison damage",
+				"scaling": {
+					"1": "1d4",
+					"5": "2d4",
+					"11": "3d4",
+					"17": "4d4"
+				}
+			},
+            "miscTags": [
+                "SGT",
+                "SCL"
+            ],
+            "foundryImg": "icons/magic/unholy/projectile-missle-green.webp"
+        },
+        {
+            "name": "Holy Grasp",
+            "source": "MaruRuxzy",
+            "level": 0,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Sorcerer",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Divine Soul",
+                            "shortName": "Divine Soul",
+                            "source": "XGE"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Celestial",
+                            "shortName": "Celestial",
+                            "source": "XGE"
+                        }
+                    }
+                ]
+            },
+            
+            "entries": [
+                "Radiant holy flames wreath your hand and alight a creature you touch.",
+                "Make a melee spell attack against the target. On a hit, the target takes {@damage 1d8} radiant damage. A flammable target hit by this spell ignites, taking radiant damage instead of fire damage.",
+                "This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+            ],
+            "damageInflict": [
+                "radiant"
+            ],
+            "scalingLevelDice": {
+				"label": "radiant damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+            "miscTags": [
+                "SGT",
+                "SCL"
+            ],
+            "foundryImg": "icons/magic/light/hand-sparks-glow-yellow.webp"
+        },
+        {
+            "name": "Sonic Bolt",
+            "source": "MaruRuxzy",
+            "level": 0,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Tempest Domain",
+                            "shortName": "Tempest",
+                            "source": "PHB"
+                        }
+                    }
+                ]
+            },
+            
+            "entries": [
+                "You snap your fingers, sending a thunderous burst of sound that can be heard up to 100 feet away upon impact towards a target in range.",
+                "Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} thunder damage.",
+                "This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+            ],
+            "damageInflict": [
+                "thunder"
+            ],
+            "scalingLevelDice": {
+				"label": "thunder damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+            "miscTags": [
+                "SGT",
+                "SCL"
+            ],
+            "foundryImg": "icons/magic/sonic/projectile-shock-wave-blue.webp"
+        },
+        {
+            "name": "Impact Bolt",
+            "source": "MaruRuxzy",
+            "level": 0,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Fighter",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Rogue",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "PHB"
+                        }
+                    }
+                ]
+            },
+            
+            "entries": [
+                "A small bolt of force energy streak towards a target in range, pushing them away.",
+                "Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d6} force damage and is pushed 5 feet directly away from you, increasing the dice size to {@damage 1d12} if they are pushed into a wall.",
+                "This spell's damage increases by {@dice 1d6}/{@dice 1d12} when you reach 5th level ({@dice 2d6}/{@dice 2d12}), 11th level ({@dice 3d6}/{@dice 3d12}), and 17th level ({@dice 4d6/{@dice 4d12})."
+            ],
+            "damageInflict": [
+                "force"
+            ],
+            "scalingLevelDice": {
+				"label": "force damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+            "miscTags": [
+                "SGT",
+                "SCL",
+                "FMV"
+            ],
+            "foundryImg": "icons/magic/light/projectile-smoke-yellow.webp"
+        }
+    ],
+    "monster": [
+        {
+            "source": "MaruRuxzy",
+            "name": "Sigmauler",
+            "size": [
+                "L"
+            ],
+            "type": {
+                "type": "aberration"
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "{@item natural|phb}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 152,
+                "formula": "20d10 + 32"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 15,
+            "con": 19,
+            "int": 3,
+            "wis": 16,
+            "cha": 6,
+            "save": {
+                "str": "+9",
+                "con": "+8"
+            },
+            "skill": {
+                "perception": "+7",
+                "athletics": "+9",
+                "survival": "+7"
+            },
+            "resist": [
+                "psychic",
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "vulnerable": [
+                "thunder"
+            ],
+            "conditionImmune": [
+                "frightened",
+                "paralyzed"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "cr": "12",
+            "trait": [
+                {
+                    "name": "Fear Frenzy",
+                    "entries": [
+                        "The Sigmauler has advantage on attack rolls made against {@condition frightened} creatures."
+                    ]
+                },
+                {
+                    "name": "Keen Senses",
+                    "entries": [
+                        "The Sigmauler has advantage on Wisdom (Perception) checks that rely on sight, sound, or smell."
+                    ]
+                },
+                {
+                    "name": "Sunlight Sensitivity",
+                    "entries": [
+                        "While in sunlight, the Sigmauler has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight."
+                    ]
+                },
+                {
+                    "name": "Demiplane Denizen",
+                    "entries": [
+                        "As a bonus action, the Sigmauler can magically shift from its current location on the Primary Plane to its equivalent location on its Demiplane, or vice versa."
+                    ]
+                },
+                {
+                    "name": "Venomous",
+                    "entries": [
+                        "This monster's melee attacks give their targets stacks of Venom. Upon reaching 3 stacks of Venom, the creature is {@condition paralyzed} until the start of the Sigmauler's next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Sigmauler makes a Bite attack and a Claw attack."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d12 + 5}) slashing damage. If the target is a creature, it makes a {@dc 15} Constitution saving throw, taking 12 ({@damage 4d4}) necrotic damage and gaining 1 stack of Venom on a failed save, or half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d6 + 5}) piercing damage. If the target is a creature, it makes a {@dc 15} Constitution saving throw, taking 12 ({@damage 4d4}) necrotic damage and gaining 2 stacks of Venom on a failed save, or half as much damage on a successful one. The Sigmauler regains HP equal to the necrotic damage dealt by this attack."
+                    ]
+                },
+                {
+                    "name": "Tail Swipe",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, 5 ft. cone. {@h}15 ({@damage 2d8 + 5}) slashing damage. If the target is a creature, it makes a {@dc 15} Constitution saving throw, taking 12 ({@damage 4d4}) necrotic damage and gaining 1 stack of Venom on a failed save, or half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "Teleport {@recharge 4}",
+                    "entries": [
+                        "The Sigmauler magically teleports. It disappears from its current location is a flash of sickly yellow, then reappears up to 40 ft. away, making up to one Bite or Tail Swipe attack."
+                    ]
+                }
+            ]
+        }
+    ]
+}
