@@ -115,7 +115,7 @@
             "name": "Immolate",
             "source": "MaruRuxzy",
             "level": 0,
-            "school": "E",
+            "school": "V",
             "time": [
                 {
                     "number": 1,
@@ -248,7 +248,7 @@
             "name": "Bubbling Grasp",
             "source": "MaruRuxzy",
             "level": 0,
-            "school": "E",
+            "school": "V",
             "time": [
                 {
                     "number": 1,
@@ -483,7 +483,7 @@
             "name": "Static Arc",
             "source": "MaruRuxzy",
             "level": 0,
-            "school": "E",
+            "school": "V",
             "time": [
                 {
                     "number": 1,
@@ -809,7 +809,7 @@
             "name": "Holy Grasp",
             "source": "MaruRuxzy",
             "level": 0,
-            "school": "E",
+            "school": "V",
             "time": [
                 {
                     "number": 1,
@@ -890,7 +890,7 @@
             "name": "Sonic Bolt",
             "source": "MaruRuxzy",
             "level": 0,
-            "school": "E",
+            "school": "V",
             "time": [
                 {
                     "number": 1,
@@ -999,7 +999,7 @@
             "name": "Impact Bolt",
             "source": "MaruRuxzy",
             "level": 0,
-            "school": "E",
+            "school": "V",
             "time": [
                 {
                     "number": 1,
