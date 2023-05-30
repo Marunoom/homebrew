@@ -1,0 +1,153 @@
+{
+"_meta": {
+    "sources": [
+        {
+            "json": "RuxzyCreatures",
+            "abbreviation": "RGtVaiI:C",
+            "full": "Ruxzy's Guide to Vasstika and its Inhabitants: Creatures",
+            "authors": [
+                "Marunoom"
+            ],
+            "version": "0.1",
+            "color": "330066",
+            "targetSchema": "1.2"
+        }
+    ],
+    "dateAdded": 1685468855,
+    "dateLastModified": 1685468855
+},
+    "monster": [
+        {
+            "source": "MaruRuxzy",
+            "name": "Sigmauler",
+            "size": [
+                "L"
+            ],
+            "type": {
+                "type": "aberration"
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "{@item natural|phb}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 152,
+                "formula": "20d10 + 32"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 15,
+            "con": 19,
+            "int": 3,
+            "wis": 16,
+            "cha": 6,
+            "save": {
+                "str": "+9",
+                "con": "+8"
+            },
+            "skill": {
+                "perception": "+7",
+                "athletics": "+9",
+                "survival": "+7"
+            },
+            "resist": [
+                "psychic",
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "vulnerable": [
+                "thunder"
+            ],
+            "conditionImmune": [
+                "frightened",
+                "paralyzed"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "cr": "12",
+            "trait": [
+                {
+                    "name": "Fear Frenzy",
+                    "entries": [
+                        "The Sigmauler has advantage on attack rolls made against {@condition frightened} creatures."
+                    ]
+                },
+                {
+                    "name": "Keen Senses",
+                    "entries": [
+                        "The Sigmauler has advantage on Wisdom (Perception) checks that rely on sight, sound, or smell."
+                    ]
+                },
+                {
+                    "name": "Sunlight Sensitivity",
+                    "entries": [
+                        "While in sunlight, the Sigmauler has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight."
+                    ]
+                },
+                {
+                    "name": "Demiplane Denizen",
+                    "entries": [
+                        "As a bonus action, the Sigmauler can magically shift from its current location on the Primary Plane to its equivalent location on its Demiplane, or vice versa."
+                    ]
+                },
+                {
+                    "name": "Venomous",
+                    "entries": [
+                        "This monster's melee attacks give their targets stacks of Venom. Upon reaching 3 stacks of Venom, the creature is {@condition paralyzed} until the start of the Sigmauler's next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Sigmauler makes a Bite attack and a Claw attack."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d12 + 5}) slashing damage. If the target is a creature, it makes a {@dc 15} Constitution saving throw, taking 12 ({@damage 4d4}) necrotic damage and gaining 1 stack of Venom on a failed save, or half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d6 + 5}) piercing damage. If the target is a creature, it makes a {@dc 15} Constitution saving throw, taking 12 ({@damage 4d4}) necrotic damage and gaining 2 stacks of Venom on a failed save, or half as much damage on a successful one. The Sigmauler regains HP equal to the necrotic damage dealt by this attack."
+                    ]
+                },
+                {
+                    "name": "Tail Swipe",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, 5 ft. cone. {@h}15 ({@damage 2d8 + 5}) slashing damage. If the target is a creature, it makes a {@dc 15} Constitution saving throw, taking 12 ({@damage 4d4}) necrotic damage and gaining 1 stack of Venom on a failed save, or half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "Teleport {@recharge 4}",
+                    "entries": [
+                        "The Sigmauler magically teleports. It disappears from its current location is a flash of sickly yellow, then reappears up to 40 ft. away, making up to one Bite or Tail Swipe attack."
+                    ]
+                }
+            ]
+        }
+    ]
+}
