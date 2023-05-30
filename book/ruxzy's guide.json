@@ -1164,15 +1164,6 @@
                     }
                 ]
             },
-            "optionalfeatures": [
-                {
-                    "name": "Flames of the Phoenix",
-                    "source": "PHB",
-                    "featureType": [
-                        "ED"
-                    ]
-                }
-            ],
             "entries": [
                 "Using the amplifier as a focus, you create a massive blast of painfully loud sonic energy that screeches out from its speakers. Each creature within a 30-foot cone originating from the amplifier must make a Constitution saving throw. A creature takes {@damage 6d8} thunder damage on a failed save, or half as much on a successful one. A creature that can hear that fails the save becomes {@condition deafened} for 1 turn."
             ],
