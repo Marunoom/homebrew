@@ -1070,7 +1070,7 @@
             "entries": [
                 "A small bolt of force energy streak towards a target in range, pushing them away.",
                 "Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d6} force damage and is pushed 5 feet directly away from you, increasing the dice size to {@damage 1d12} if they are pushed into a wall.",
-                "This spell's damage increases by {@dice 1d6}/{@dice 1d12} when you reach 5th level ({@dice 2d6}/{@dice 2d12}), 11th level ({@dice 3d6}/{@dice 3d12}), and 17th level ({@dice 4d6/{@dice 4d12})."
+                "This spell's damage increases by {@dice 1d6}/{@dice 1d12} when you reach 5th level ({@dice 2d6}/{@dice 2d12}), 11th level ({@dice 3d6}/{@dice 3d12}), and 17th level ({@dice 4d6}/{@dice 4d12})."
             ],
             "damageInflict": [
                 "force"
