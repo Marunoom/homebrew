@@ -1090,6 +1090,125 @@
                 "FMV"
             ],
             "foundryImg": "icons/magic/light/projectile-smoke-yellow.webp"
+        },
+        {
+            "name": "Chauncey's Sonic Cannon",
+            "source": "MaruRuxzy",
+            "basicRules": true,
+            "level": 3,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a sonic amplifier powered by a thunder quartztet of at least size large"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "miscTags": [
+                "OBJ"
+            ],
+            "hasFluffImages": true,
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Wizard",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Arcane Trickster",
+                            "shortName": "Arcane Trickster",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Wizard",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Eldritch Knight",
+                            "shortName": "Eldritch Knight",
+                            "source": "PHB"
+                        }
+                    }
+                ]
+            },
+            "optionalfeatures": [
+                {
+                    "name": "Flames of the Phoenix",
+                    "source": "PHB",
+                    "featureType": [
+                        "ED"
+                    ]
+                }
+            ],
+            "entries": [
+                "Using the amplifier as a focus, you create a massive blast of painfully loud sonic energy that screeches out from its speakers. Each creature within a 30-foot cone originating from the amplifier must make a Constitution saving throw. A creature takes {@damage 6d8} thunder damage on a failed save, or half as much on a successful one. A creature that can hear that fails the save becomes {@condition deafened} for 1 turn."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 6d8|3-9|1d8} for each slot level above 3rd."
+                    ]
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    {
+                        "type": "quote",
+                        "entries": [
+                            "While I am known to be a *very* powerful wizard, if there is one thing I am better at than being such a powerful wizard... it's being loud."
+                        ],
+                        "by": "Chauncey Hyperion",
+                        "from": "The Life and Times of a Very Powerful Wizard"
+                    }
+                ]
+            },
+            "damageInflict": [
+                "thunder"
+            ],
+            "spellAttack": [
+                "O"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "areaTags": [
+                "N"
+            ]
         }
     ],
     "monster": [
